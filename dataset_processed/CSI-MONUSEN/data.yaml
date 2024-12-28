@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['boat', 'buoy']
+
+roboflow:
+  workspace: csi-if9pd
+  project: csi-qmqmx
+  version: 5
+  license: Private
+  url: https://app.roboflow.com/csi-if9pd/csi-qmqmx/5
